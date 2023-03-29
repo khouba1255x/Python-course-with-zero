@@ -36,3 +36,4 @@ print("My Number is: %.2f" % myNumber)
 myLongString = "Hello Peoples of Elzero Web School I Love You All"
 print("messege is %s" % myLongString)
 print("messege is %.5s" % myLongString)
+jjjjjjjjjjjjjjj
