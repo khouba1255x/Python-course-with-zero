@@ -5,8 +5,8 @@
 # Tuple With One Element
 print("# Tuple With One Element")
 
-myTuple1 = ("Osama")
-myTuple2 = "Osama"
+myTuple1 = ("Osama",)
+myTuple2 = "Osama",
 
 print(myTuple1)
 print(myTuple2)
@@ -21,7 +21,7 @@ a = (1, 2, 3, 4)
 b = (5, 6)
 
 c = a + b
-d = a + ("A", "B", True)
+d = a + ("A", "B", True) + b
 
 print(c)
 print(d)
