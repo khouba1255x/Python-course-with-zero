@@ -34,13 +34,20 @@ print(int(num1))
 print(type(int(num1)))
 # ena 5demt hakka w alahou A3lem ken s7i7 w ella lea
 
-# 4 type1
+# 4 type2
 print("assignment 4 type2")
 
 num1 = 159.650
 n1 = int(num1)
 print(int(n1))
 print(type(n1))
+
+# 4 type3
+print("assignment 4 type3")
+
+num1 = 159.650
+print("the nubmer int  {:d}".format(int(num1)))
+print("the nubmer int  {}".format(type(int(num1))))
 
 # 5
 print("assignment 5")
