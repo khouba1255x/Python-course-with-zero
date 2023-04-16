@@ -40,3 +40,5 @@ print(b)
 main.update({"skills": "Fighting"})
 print(main)
 print(b)
+
+print("=" * 50)
