@@ -27,6 +27,8 @@ print(user.get("contry"))
 print(user.keys())
 print(user.values())
 
+print("=" * 50)
+
 # Two-Dimensional Dictionary
 print("#Two-Dimensional Dictionary  :")
 
@@ -50,11 +52,15 @@ print(languages["One"])
 print(languages["One"]["progresse"])
 print(languages["Three"]["name"])
 
+print("=" * 50)
+
 # Dictionary Length
 print("# Dictionary Length   :")
 
 print(len(languages))
 print(len(languages["Three"]))
+
+print("=" * 50)
 
 # Create Dictionary From Variables
 print("# Create Dictionary From Variables   :")
@@ -79,3 +85,5 @@ allframeWork = {
 }
 
 print(allframeWork)
+
+print("=" * 50)
