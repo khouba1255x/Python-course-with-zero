@@ -10,7 +10,7 @@
 # ----------------------------
 
 # Dictionary
-print("Dictionary  :  ")
+print("#Dictionary  :  ")
 
 user = {
     "name": "Osama",
@@ -28,7 +28,7 @@ print(user.keys())
 print(user.values())
 
 # Two-Dimensional Dictionary
-print("Two-Dimensional Dictionary  :")
+print("#Two-Dimensional Dictionary  :")
 
 languages = {
     "One": {
@@ -48,3 +48,34 @@ languages = {
 print(languages)
 print(languages["One"])
 print(languages["One"]["progresse"])
+print(languages["Three"]["name"])
+
+# Dictionary Length
+print("# Dictionary Length   :")
+
+print(len(languages))
+print(len(languages["Three"]))
+
+# Create Dictionary From Variables
+print("# Create Dictionary From Variables   :")
+
+frameWorkOne = {
+    "name": "Vuejs",
+    "progress": "80%"
+}
+frameWorkTow = {
+    "name": "ReactJs",
+    "progress": "80%"
+}
+frameWorkThree = {
+    "name": "Angular",
+    "progress": "80%"
+}
+
+allframeWork = {
+    "one": frameWorkOne,
+    "two": frameWorkTow,
+    "three": frameWorkThree
+}
+
+print(allframeWork)
