@@ -32,6 +32,3 @@ print("=" * 40)
 # Items is unique :
 mySetFour = {1, 2, "Osama", "One", "Osama", 1}
 print(mySetFour)
-
-
-
