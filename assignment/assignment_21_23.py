@@ -1,26 +1,30 @@
+# 3matlou  fiisle7 w commits fi 2032/5/17 , Arji3 lil github
+
 # 1
 print("assignment 1")
 
 friends = ["Osama", "Ahmed", "Sayed", "Ali", "Mahmoud"]
 friends1 = friends.copy()
 
-print(friends[0] + "Method One")
-print(friends.pop(0) + "Method Two")  # walli shouf chniyya il method 2
+print(friends[0] + " Method One")
+print(friends[-5] + " Method Two")  # hawka salli7tha 
 
 print(friends[0] + " Method One")
-print(friends.pop(0) + " Method Two")  # walli shouf chniyya il method 2
+print(friends.pop(0) + " Method Two")  # hawka salli7tha arji3 lil github
 
 # 2
 print("assignment 2")
 
 print(f"{friends1[0]}, {friends1[1]}, {friends1[-1]}")
 print(f"{friends1[1]}, {friends1[3]}")
+# bon il fekra hethi mosh 3amaliyya 7atta tarf ama il output s7i7 
 
 # 3
 print("assignment 3")
 
 print(f"{friends1[1]}, {friends1[2]}, {friends1[-2]}")
 print(f"{friends1[-2]}, {friends1[-1]}")
+# bon il fekra hethi mosh 3amaliyya 7atta tarf ama il output s7i7 
 
 # 4
 print("assignmet 4")
