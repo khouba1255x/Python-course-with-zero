@@ -24,3 +24,5 @@ c = nums + letters
 
 print(c)
 print(len(c))
+
+# meazzel mea kmelsh
