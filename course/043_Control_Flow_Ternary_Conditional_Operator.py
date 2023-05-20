@@ -26,3 +26,5 @@ else :
     
 
 print("Movie is Not Good 4u" if age < movieRate else "Movie is Good 4u and Happy Watching")
+
+# Condition if True | If Condition | Else | Condition if False :
