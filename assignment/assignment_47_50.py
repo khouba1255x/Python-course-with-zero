@@ -95,9 +95,10 @@ while maxi < 5 :
     
     if name == name.upper() :
         print("The Name Is Invalid !!")
+        print("=" * 40)
     
     elif name == name.capitalize() :
-        print(f"Friend {name} Added")
+        print(f"Friend # {name} # Added")
         my_friends.append(name)
 
         
@@ -105,15 +106,19 @@ while maxi < 5 :
         maxi_list -=1
         print(f"Names Left in List Is {maxi_list}")
         
+        print("=" * 40)
+        
         
     else :  
         print("The Name Is Valid")
         my_friends.append(name.capitalize())
         
-        print(f"Friend {name} Added => 1st Letter Become Capital") 
+        print(f"Friend # {name} # Added => 1st Letter Become Capital") 
                
         maxi += 1
         maxi_list -=1
         print(f"Names Left in List Is {maxi_list}")
+        
+        print("=" * 40)
         
 print(my_friends)
