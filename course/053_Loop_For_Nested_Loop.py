@@ -43,5 +43,4 @@ for name in peoples:
     print(f"Skills and Progress For {name} Is:")
     
     for skill in peoples[name] : 
-        print(f"{skill} => {peoples[name][skill]}") 
-              
+        print(f"{skill} => {peoples[name][skill]}")
