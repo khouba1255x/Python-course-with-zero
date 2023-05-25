@@ -2,14 +2,16 @@
 # -- Function Scope --
 # --------------------
 
-x = 1  # Global Scope
+# x = 1  # Global Scope
 
 def one():
-    
+        
+    x = 2
     global x
     
-    x = 2
     print(f"Print Variable From Function Scope {x}")
+    
+
 
 def two():
     
@@ -17,7 +19,7 @@ def two():
     print(f"Print Variable From Function Scope {x}")
 
 
-print(f"Print Variable From Global Scope {x}")
 one()
+print(f"Print Variable From Global Scope {x}")
 two()
 print(f"Print Variable From Global Scope After One Function Is Called : {x}")
