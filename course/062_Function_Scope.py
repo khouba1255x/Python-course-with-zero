@@ -5,13 +5,11 @@
 # x = 1  # Global Scope
 
 def one():
-        
-    x = 2
+    
     global x
     
+    x = 2
     print(f"Print Variable From Function Scope {x}")
-    
-
 
 def two():
     
