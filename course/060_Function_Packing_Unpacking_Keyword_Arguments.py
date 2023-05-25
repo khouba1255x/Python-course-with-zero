@@ -18,7 +18,8 @@ mySkills = {
     "Html": "80%",
     "Css": "70%",
     "Js": "50%",
-    "Python": "90%"
+    "Python": "90%",
+    "Go": "40%"
 }
 
 def show_skills(**skills) :
