@@ -30,29 +30,86 @@ print("=" * 40)
 # Assignment 2:
 print("# Assignment 2:")
 
-def addition(*num) :
+# def addition(*nums) :
     
-    total = 0
+#     total = 0
 
-    if num == 10 :
-        total += 0
+#     for num in nums :
+        
+#         if num == 10 :
+#             total += 0
+        
+#         elif num == 5 :
+#             total -= 5
+        
+#         else :
+#             total += num
     
-    elif num == 5 :
-        total -= 5
-    
-    else :
-        total += num
-    
-    return total
+#     return total
 
-len_list = int(input("Type lengh of your list addition : "))
 
-for i in range (len_list) :
-    
-    sum_numbers = 0
-    
-    number = int(input(f"Type Your number {i+1} to add with the total : {sum_numbers} : "))
-    
-    sum_numbers += addition(number)
 
-print(f"The total of your list is : {sum_numbers}")
+# len_list = int(input("Type lengh of your list addition : "))
+# sum_numbers = 0
+
+# for i in range (len_list) :
+    
+    
+#     number = int(input(f"Type Your number {i+1} to add with the total : {sum_numbers} : "))
+    
+#     sum_numbers += addition(number)
+
+# print(f"The total of your list is : {sum_numbers}")
+
+print("=" * 40)
+# Assignment 3:
+print("# Assignment 3:")
+
+# #type 1:
+
+# def shwo_shkills(name, skills) :
+    
+#     if len(skills) > 0 :
+#         print(f"Hello {name} Your Skills Is :")
+        
+#         for skill in skills :
+#             print(f"- {skill}")
+    
+#     else :
+#         return(print(f"Hello {name} You Have No Skills To Show"))
+    
+# name = input("Type Your Name : ").strip().capitalize()
+# skills_number = int(input("Type How many Skill You Have : "))
+# skills = []
+
+# for i in range (skills_number) :
+    
+#     skill = input(f"Type Your skill nomber {i+1} : ").strip().capitalize()
+#     skills.append(skill)
+    
+# shwo_shkills(name, skills)
+
+# # type 2:
+
+# def shwo_shkills(name, *skills) :
+    
+#     if len(skills) > 0 :
+#         print(f"Hello {name} Your Skills Is :")
+        
+#         for skill in skills :
+#             print(f"- {skill}")
+    
+#     else :
+#         return(print(f"Hello {name} You Have No Skills To Show"))
+        
+# shwo_shkills("Osama")
+
+print("=" * 40)
+# Assignment 4:
+print("# Assignment 4:")
+
+def say_hello(name = "UnKnown", age = "UnKnown", country = "UnKnown") :
+    
+    return(f"Hello {name} Your Age Is {age} And You Live {country}")
+
+print(say_hello())
