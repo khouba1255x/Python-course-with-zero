@@ -14,12 +14,13 @@ print("=" * 40)
 
 print("=" * 40)
 
-# myList = ["Osama\n", "Ahmed\n", "Sayed\n"]
+myList = ["Osama\n", "Ahmed\n", "Sayed\n"]
 
-# myFile = open(r"C:\khouba\Elzero\Python\Python-course-with-zero\course\Osama1.txt", "w" )
-# myFile.writelines(myList)
+myFile = open(r"C:\khouba\Elzero\Python\Python-course-with-zero\course\Osama1.txt", "w" )
+myFile.writelines(myList)
+print(myFile.writelines(myList))
 
 print("=" * 40)
 
-myFile = open(r"C:\khouba\Elzero\Python\Python-course-with-zero\course\Osama1.txt", "a" )
-myFile.writelines("Elzero")
+# myFile = open(r"C:\khouba\Elzero\Python\Python-course-with-zero\course\Osama1.txt", "a" )
+# myFile.writelines("Elzero")
