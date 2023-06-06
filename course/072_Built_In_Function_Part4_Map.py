@@ -14,11 +14,10 @@ def formatText(text) :
     return f"- {text.strip().capitalize()} -"
 
 myTexts = ["OSama", "AHMED", "  sAYed  "]
-
 myFormateData = map(formatText, myTexts)
-
 print(myFormateData)
 
+print("=" * 10)
 # print type 1
 for name in myFormateData :
     print(name)
@@ -26,6 +25,16 @@ for name in myFormateData :
 print("=" * 10)
 
 # print type 2
-for name in list(map(formatText, myTexts)) :
+for name in list(map(   formatText, myTexts)) :
     print(name)
+
+print("=" * 40)
+# Use Map With Lamda Function
+print("# Use Map With Lamda Function")
+
+for name in list(map(lambda text: f"- {text.strip().capitalize()} - ", myTexts)) :
+    print(name)
+
+myTexts = ["OSama", "AHMED", "  sAYed  "]
+myFormateData = map(formatText, myTexts)
 
