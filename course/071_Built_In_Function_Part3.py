@@ -43,13 +43,11 @@ print(max("A", "X", "Z", "Osama"))
 print(max(myNumbers))
 
 print("=" * 40)
-#slice()
+#slice(star, end, step)
 print("#slice()")
 
 a = ["A", "B", "C", "D", "E", "F"]
 
 print(a[:5])
 print(a[slice(5)])
-print(a)
 print(a[slice(2, 5)])
-print(a)
