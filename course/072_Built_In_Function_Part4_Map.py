@@ -25,7 +25,7 @@ for name in myFormateData :
 print("=" * 10)
 
 # print type 2
-for name in list(map(   formatText, myTexts)) :
+for name in list(map(formatText, myTexts)) :
     print(name)
 
 print("=" * 40)
@@ -37,4 +37,3 @@ for name in list(map(lambda text: f"- {text.strip().capitalize()} - ", myTexts))
 
 myTexts = ["OSama", "AHMED", "  sAYed  "]
 myFormateData = map(formatText, myTexts)
-
