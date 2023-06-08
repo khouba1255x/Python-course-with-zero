@@ -17,6 +17,6 @@ def sumAll(num1, num2) :
 
 numbers = [1, 8, 2, 9, 100]
 
-# result = reduce(sumAll, numbers)
-result = reduce(lambda num1, num2: num1 + num2, numbers )
+# result = reduce(sumAll, numbers) # normal function
+result = reduce(lambda num1, num2: num1 + num2, numbers ) # lambda function
 print(result)
