@@ -22,7 +22,7 @@ while True:
         print(f"Random Even Number Between 2 and 10 => {nb}")
         break
 
-# Line 2
+# Line 3
 
 nb = randint(1, 9)
 while True:
@@ -37,3 +37,8 @@ while True:
         nb += 1 
         print(f"Random Odd Number Between 1 and 9 => {nb}")
         break
+
+print("=" * 40)
+# Assignment 2:
+print("# Assignment 2:")
+
