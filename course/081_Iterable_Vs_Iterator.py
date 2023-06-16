@@ -24,9 +24,9 @@ myNumber = 10
 #     print(number, end=" ")
 
 print("=" * 40)
-# myIterator = iter(myString)
+myIterator = iter(myString)
 
-# print(next(myIterator))
+print(next())
 # print(next(myIterator))
 # print(next(myIterator))
 # print(next(myIterator))
@@ -40,7 +40,3 @@ print("=" * 40)
 
 # for letter in iter("Elzero") :
 #     print(letter, end=" ")
-
-myIterator = iter(10)
-for letter in myIterator :
-    print(letter, end=" ")
