@@ -36,6 +36,7 @@ while the_tries > 0 :
         if the_file is not None :
             the_file.close()
             print("File Closed.")
+            
         
         
 else :
