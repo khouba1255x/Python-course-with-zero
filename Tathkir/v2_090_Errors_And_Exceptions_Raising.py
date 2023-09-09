@@ -14,7 +14,7 @@
 
 # if x < 0 :
     
-#     raise Exception(f"The number {x} Is Less Than Zero")
+#     raise Exception(f"The number {x} Is Less Than Zero")  # tajjem ta3mel il exception bil tari9a hethi 
 
 #     print("This will Not Print Because The Error")
 
@@ -31,6 +31,6 @@ y = "Osama"
 
 if type(y) != int :
     
-    raise Exception ("Only Numbers Allowed")
+    raise ValueError ("Only Numbers Allowed")  # tajjem t7aded il naw3 mta3 il exception 
 
 print("Print Message After If Condition")

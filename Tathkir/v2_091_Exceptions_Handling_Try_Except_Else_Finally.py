@@ -9,14 +9,14 @@
 # Finally => Run The Code
 # ------------------------
 
-# part 1 
+# # part 1 
 
 # number = int(input("Write Your Age: "))
 
 # print(number)
 # print(type(number))
 
-# part 2
+# # part 2
 
 # try : # Try The Code And Test Errors
 #     number = int(input("Write Your Age: "))
