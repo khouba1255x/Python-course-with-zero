@@ -21,27 +21,36 @@ print("=" * 40)
 # assignment 2: 
 print("# assignment 2:")
 
-try :
-    LETTER = input("Add Letter From A to Z : ")
+# try :
+#     LETTER = input("Add Letter From A to Z : ")
     
-    if LETTER.isalpha() and len(LETTER) == 1 and "A" <= LETTER <= "Z" :
-        print(f"You Typed {LETTER}")
+#     if LETTER.isalpha() and len(LETTER) == 1 and "A" <= LETTER <= "Z" :
+#         print(f"You Typed {LETTER}")
     
-    elif len(LETTER) != 1 :
-        raise IndexError ("The letter len is large than 1")
+#     elif len(LETTER) != 1 :
+#         raise IndexError ("The letter len is large than 1")
     
-    elif LETTER.isalpha() == False  :
-        raise ValueError ("The letter is not upper alpha")
+#     elif LETTER.isalpha() == False  :
+#         raise ValueError ("The letter is not upper alpha")
     
-    elif not ("A" <= LETTER <= "Z") :
-        raise NameError ("The letter is not upper")
+#     elif not ("A" <= LETTER <= "Z") :
+#         raise NameError ("The letter is not upper")
     
 
-except ValueError :
-    print("The letter Not in A - Z")
+# except ValueError :
+#     print("The letter Not in A - Z")
 
-except IndexError :
-    print("You Must Write One Character Only")
+# except IndexError :
+#     print("You Must Write One Character Only")
 
-except NameError :
-    print("The letter Not uppper")
+# except NameError :
+#     print("The letter Not uppper")
+
+print("=" * 40)
+# assignment 3: 
+print("# assignment 3:")
+
+def calculate(num1, num2) -> int:
+  return num1 + num2
+
+print(calculate(20, 30))
